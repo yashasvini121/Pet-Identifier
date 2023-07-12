@@ -308,5 +308,3 @@ def check_calculating_results(results_dic, results_stats_dic):
         print("N Images: {:2d}  N Dog Images: {:2d}  N NotDog Images: {:2d} \nPct Corr dog: {:5.1f} Pct Corr NOTdog: {:5.1f}  Pct Corr Breed: {:5.1f}".format(
               n_images, n_pet_dog, n_pet_notd, pct_corr_dog, pct_corr_notdog,
               pct_corr_breed))
-
-        print("I couldn't do the final step because the page wasn't working. Screen shot attached: 'error_screenhot.png)")
